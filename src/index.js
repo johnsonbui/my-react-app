@@ -73,7 +73,13 @@ class Game extends React.Component {
         }
       ],
       stepNumber: 0,
-      isX: true
+      isX: true,
+      movePosition: [
+        {
+          x: null,
+          y: null
+        }
+      ]
     };
   }
 
